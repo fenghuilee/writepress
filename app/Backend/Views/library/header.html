@@ -1,0 +1,169 @@
+            <header id="header" class="type_6">
+
+                <!-- - - - - - - - - - - - - - Top part - - - - - - - - - - - - - - - - -->
+
+                <div class="top_part">
+
+                    <div class="container">
+
+                        <div class="row">
+
+                            <div class="col-lg-6 col-md-7 col-sm-8">
+
+                                <!-- - - - - - - - - - - - - - Login - - - - - - - - - - - - - - - - -->
+                                <{if $identity}>
+                                <p>Welcome <{$identity.username}> <a href="/userend/passport/logout"><{t}>logout<{/t}></a></p>
+                                <{else}>
+                                <p>Welcome visitor <a href="#" data-modal-url="modals/login.html"><{t}>login<{/t}></a> or <a href="#"><{t}>register<{/t}></a></p>
+                                <{/if}>
+                                <!-- - - - - - - - - - - - - - End login - - - - - - - - - - - - - - - - -->
+
+                            </div> <!--/ [col]-->
+
+                            <div class="col-lg-6 col-md-5 col-sm-4">
+
+                                <div class="clearfix">
+
+                                    <!-- - - - - - - - - - - - - - Language change - - - - - - - - - - - - - - - - -->
+
+                                    <div class="alignright site_settings">
+
+                                        <span class="current open_"><img src="/assets/frontend/images/flag_en.jpg" alt="">English</span>
+
+                                        <ul class="dropdown site_setting_list language">
+
+                                            <li class="animated_item"><a href="#"><img src="/assets/frontend/images/flag_en.jpg" alt=""> English</a></li>
+                                            <li class="animated_item"><a href="#"><img src="/assets/frontend/images/flag_g.jpg" alt=""> German</a></li>
+                                            <li class="animated_item"><a href="#"><img src="/assets/frontend/images/flag_s.jpg" alt=""> Spanish</a></li>
+
+                                        </ul>
+
+                                    </div><!--/ .alignright.site_settings-->
+
+                                    <!-- - - - - - - - - - - - - - End of language change - - - - - - - - - - - - - - - - -->
+                                    
+                                    <!-- - - - - - - - - - - - - - Currency change - - - - - - - - - - - - - - - - -->
+
+                                    <div class="alignright site_settings currency">
+
+                                        <span class="current open_">USD</span>
+
+                                        <ul class="dropdown site_setting_list">
+
+                                            <li class="animated_item"><a href="#">USD</a></li>
+                                            <li class="animated_item"><a href="#">EUR</a></li>
+                                            <li class="animated_item"><a href="#">GBP</a></li>
+
+                                        </ul>
+
+                                    </div><!--/ .alignright.site_settings.currency-->
+
+                                    <!-- - - - - - - - - - - - - - End of currency change - - - - - - - - - - - - - - - - -->
+
+                                </div><!--/ .clearfix-->
+
+                            </div><!--/ [col]-->
+
+                        </div><!--/ .row-->
+
+                    </div><!--/ .container -->
+
+                </div><!--/ .top_part -->
+                
+                <!-- - - - - - - - - - - - - - End of top part - - - - - - - - - - - - - - - - -->
+
+                <hr>
+
+                <!-- - - - - - - - - - - - - - Bottom part - - - - - - - - - - - - - - - - -->
+
+                <div class="bottom_part">
+
+                    <div class="container">
+
+                        <div class="row">
+
+                            <div class="main_header_row">
+
+                                <div class="col-sm-3">
+
+                                    <!-- - - - - - - - - - - - - - Logo - - - - - - - - - - - - - - - - -->
+
+                                    <a href="index.html">
+
+                                        <img src="/assets/frontend/images/logo.png" alt="">
+
+                                    </a>
+
+                                    <!-- - - - - - - - - - - - - - End of logo - - - - - - - - - - - - - - - - -->
+
+                                </div><!--/ [col]-->
+
+                                <div class="col-sm-3">
+
+                                    <!-- - - - - - - - - - - - - - Call to action - - - - - - - - - - - - - - - - -->
+
+                                    <div class="call_us">
+
+                                        <span>Call us toll free:</span> <b>+1888 234 5678</b>
+
+                                    </div><!--/ .call_us-->
+
+                                    <!-- - - - - - - - - - - - - - End call to action - - - - - - - - - - - - - - - - -->
+
+                                </div><!--/ [col]-->
+
+                                <div class="col-sm-6">
+
+                                    <!-- - - - - - - - - - - - - - Search form - - - - - - - - - - - - - - - - -->
+
+                                    <form class="clearfix search">
+
+                                        <input type="text" name="" tabindex="1" placeholder="Search..." class="alignleft">
+                                        
+                                        <!-- - - - - - - - - - - - - - Categories - - - - - - - - - - - - - - - - -->
+
+                                        <div class="search_category alignleft">
+
+                                            <div class="open_categories">All Categories</div>
+
+                                            <ul class="categories_list dropdown">
+
+                                                <li class="animated_item"><a href="#">Medicine &amp; Health</a></li>
+                                                <li class="animated_item"><a href="#">Beauty</a></li>
+                                                <li class="animated_item"><a href="#">Personal Care</a></li>
+                                                <li class="animated_item"><a href="#">Vitamins &amp; Supplements</a></li>
+                                                <li class="animated_item"><a href="#">Baby Needs</a></li>
+                                                <li class="animated_item"><a href="#">Diet &amp; Fitness</a></li>
+                                                <li class="animated_item"><a href="#">Sexual Well-being</a></li>
+
+                                            </ul>
+
+                                        </div><!--/ .search_category.alignleft-->
+
+                                        <!-- - - - - - - - - - - - - - End of categories - - - - - - - - - - - - - - - - -->
+
+                                        <button class="button_blue def_icon_btn alignleft"></button>
+
+                                    </form><!--/ #search-->
+                                    
+                                    <!-- - - - - - - - - - - - - - End search form - - - - - - - - - - - - - - - - -->
+
+                                </div><!--/ [col]-->
+
+                            </div><!--/ .main_header_row-->
+
+                        </div><!--/ .row-->
+
+                    </div><!--/ .container-->
+
+                </div><!--/ .bottom_part -->
+
+                <!-- - - - - - - - - - - - - - End of bottom part - - - - - - - - - - - - - - - - -->
+
+                <!-- - - - - - - - - - - - - - Main navigation wrapper - - - - - - - - - - - - - - - - -->
+
+                <{include file="library/navigation.tpl"}>
+
+                <!-- - - - - - - - - - - - - - End of main navigation wrapper - - - - - - - - - - - - - - - - -->
+
+            </header>
